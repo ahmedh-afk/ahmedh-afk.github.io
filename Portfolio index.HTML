@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Hossam Hefny | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">&lt;AH /&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact" class="btn-nav">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <span class="badge">Computer Science Student</span>
+      <h1>Hi, I'm <span class="highlight">Ahmed Hossam Hefny</span></h1>
+      <p class="subtitle">Junior Software Engineer & Backend Developer focused on building robust backend architectures and scalable databases.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I am a Computer Science undergraduate in Cairo passionate about system architecture, performance optimization, and database engineering. My main focus is crafting reliable systems using <strong>C# / .NET</strong>, <strong>Java</strong>, and <strong>SQL Server</strong>, while continuously exploring modern client-side integrations like Flutter.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <p>C#, Java, SQL, C++, Python, Dart</p>
+        </div>
+        <div class="skill-card">
+          <h3>Backend & DB</h3>
+          <p>.NET Core, JDBC, SQL Server, Relational DB Design</p>
+        </div>
+        <div class="skill-card">
+          <h3>Frontend & Mobile</h3>
+          <p>Flutter, Riverpod, Java Swing, HTML5/CSS3, Figma</p>
+        </div>
+        <div class="skill-card">
+          <h3>Tools & Dev</h3>
+          <p>Git, GitHub, Visual Studio, VS Code</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-tag">Java / SQL</div>
+          <h3>Java Desktop Banking UI</h3>
+          <p>A desktop banking system connected to a relational database via JDBC. Handles authentication, account operations, fund transfers, and transactional integrity validation.</p>
+          <div class="tech-stack">
+            <span>Java Swing</span>
+            <span>JDBC</span>
+            <span>SQL</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">.NET / SQL Server</div>
+          <h3>Student Management System</h3>
+          <p>Backend architecture for academic institutions featuring complete CRUD services for students, teachers, and managers using database repository patterns.</p>
+          <div class="tech-stack">
+            <span>C#</span>
+            <span>.NET</span>
+            <span>SQL Server</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">Flutter / Dart</div>
+          <h3>Home Workout & Tracker</h3>
+          <p>Cross-platform application using Riverpod state management to handle custom workout planning, habit tracking, and automated training screens.</p>
+          <div class="tech-stack">
+            <span>Flutter</span>
+            <span>Riverpod</span>
+            <span>Dart</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <h2 class="section-title">Get In Touch</h2>
+      <p>I am open to technical internships, junior roles, and software development collaborations.</p>
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com" class="btn btn-primary">Email Me</a>
+        <a href="https://github.com" target="_blank" class="btn btn-secondary">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" class="btn btn-secondary">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ahmed Hossam Hefny. Built with HTML & CSS.</p>
+  </footer>
+
+</body>
+</html>
